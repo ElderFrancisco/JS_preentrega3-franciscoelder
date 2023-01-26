@@ -6,7 +6,7 @@ const pintarProductos = (productos) => {
         div.classList.add('card');
         div.innerHTML += `<div class="card-image">
         <img src=${producto.imagen}>
-        <span class="card-title">${producto.nombre}</span>
+        <span class="card-title" style="color: black; font-weight: 400;">${producto.nombre}</span>
         <a class="btn-floating halfway-fab wabes-effect waves-light red"><i id=${producto.id} class="material-icons agregar">add_shopping_cart</i></a>
       </div>
       <div class="card-content">
